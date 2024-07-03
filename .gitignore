@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+
+# CDK asset staging directory
+.cdk.staging/
+cdk.out/
+
+# Compiled Javascript files
+*.js
+*.d.ts
+
+# Ignore TypeScript config files except the base config
+tsconfig.json
+!tsconfig.base.json
+
+# Ignore IDE and editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore build output directories
+dist/
+build/
+out/
+bin/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Jest test coverage directory
+coverage/
